@@ -1,0 +1,304 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MetricsManager</name>
+    </assembly>
+    <members>
+        <member name="M:MyNamespace.IClient.ApiMetricsAgentCpuGetbytimeperiodAsync(MyNamespace.CpuMetricGetByTimePeriodRequest)">
+            <summary>Контроллер получает метрики Cpu принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.IClient.ApiMetricsAgentCpuGetbytimeperiod(MyNamespace.CpuMetricGetByTimePeriodRequest)">
+            <summary>Контроллер получает метрики Cpu принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.IClient.ApiMetricsAgentCpuGetbytimeperiodAsync(MyNamespace.CpuMetricGetByTimePeriodRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Контроллер получает метрики Cpu принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.IClient.ApiMetricsAgentDotnetGetbytimeperiodAsync(MyNamespace.DotNetMetricGetByTimePeriodRequest)">
+            <summary>Контроллер получает метрики DotNet принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.IClient.ApiMetricsAgentDotnetGetbytimeperiod(MyNamespace.DotNetMetricGetByTimePeriodRequest)">
+            <summary>Контроллер получает метрики DotNet принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.IClient.ApiMetricsAgentDotnetGetbytimeperiodAsync(MyNamespace.DotNetMetricGetByTimePeriodRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Контроллер получает метрики DotNet принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.IClient.ApiMetricsAgentHddGetbytimeperiodAsync(MyNamespace.HddMetricGetByTimePeriodRequest)">
+            <summary>Контроллер получает метрики Hdd принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.IClient.ApiMetricsAgentHddGetbytimeperiod(MyNamespace.HddMetricGetByTimePeriodRequest)">
+            <summary>Контроллер получает метрики Hdd принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.IClient.ApiMetricsAgentHddGetbytimeperiodAsync(MyNamespace.HddMetricGetByTimePeriodRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Контроллер получает метрики Hdd принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.IClient.ApiMetricsAgentNetworkGetbytimeperiodAsync(MyNamespace.NetworkMetricGetByTimePeriodRequest)">
+            <summary>Контроллер получает метрики Network принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.IClient.ApiMetricsAgentNetworkGetbytimeperiod(MyNamespace.NetworkMetricGetByTimePeriodRequest)">
+            <summary>Контроллер получает метрики Network принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.IClient.ApiMetricsAgentNetworkGetbytimeperiodAsync(MyNamespace.NetworkMetricGetByTimePeriodRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Контроллер получает метрики Network принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.IClient.ApiMetricsAgentRamGetbytimeperiodAsync(MyNamespace.RamMetricGetByTimePeriodRequest)">
+            <summary>Контроллер получает метрики Ram принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.IClient.ApiMetricsAgentRamGetbytimeperiod(MyNamespace.RamMetricGetByTimePeriodRequest)">
+            <summary>Контроллер получает метрики Ram принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.IClient.ApiMetricsAgentRamGetbytimeperiodAsync(MyNamespace.RamMetricGetByTimePeriodRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Контроллер получает метрики Ram принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.Client.ApiMetricsAgentCpuGetbytimeperiodAsync(MyNamespace.CpuMetricGetByTimePeriodRequest)">
+            <summary>Контроллер получает метрики Cpu принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.Client.ApiMetricsAgentCpuGetbytimeperiod(MyNamespace.CpuMetricGetByTimePeriodRequest)">
+            <summary>Контроллер получает метрики Cpu принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.Client.ApiMetricsAgentCpuGetbytimeperiodAsync(MyNamespace.CpuMetricGetByTimePeriodRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Контроллер получает метрики Cpu принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.Client.ApiMetricsAgentDotnetGetbytimeperiodAsync(MyNamespace.DotNetMetricGetByTimePeriodRequest)">
+            <summary>Контроллер получает метрики DotNet принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.Client.ApiMetricsAgentDotnetGetbytimeperiod(MyNamespace.DotNetMetricGetByTimePeriodRequest)">
+            <summary>Контроллер получает метрики DotNet принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.Client.ApiMetricsAgentDotnetGetbytimeperiodAsync(MyNamespace.DotNetMetricGetByTimePeriodRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Контроллер получает метрики DotNet принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.Client.ApiMetricsAgentHddGetbytimeperiodAsync(MyNamespace.HddMetricGetByTimePeriodRequest)">
+            <summary>Контроллер получает метрики Hdd принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.Client.ApiMetricsAgentHddGetbytimeperiod(MyNamespace.HddMetricGetByTimePeriodRequest)">
+            <summary>Контроллер получает метрики Hdd принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.Client.ApiMetricsAgentHddGetbytimeperiodAsync(MyNamespace.HddMetricGetByTimePeriodRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Контроллер получает метрики Hdd принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.Client.ApiMetricsAgentNetworkGetbytimeperiodAsync(MyNamespace.NetworkMetricGetByTimePeriodRequest)">
+            <summary>Контроллер получает метрики Network принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.Client.ApiMetricsAgentNetworkGetbytimeperiod(MyNamespace.NetworkMetricGetByTimePeriodRequest)">
+            <summary>Контроллер получает метрики Network принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.Client.ApiMetricsAgentNetworkGetbytimeperiodAsync(MyNamespace.NetworkMetricGetByTimePeriodRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Контроллер получает метрики Network принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.Client.ApiMetricsAgentRamGetbytimeperiodAsync(MyNamespace.RamMetricGetByTimePeriodRequest)">
+            <summary>Контроллер получает метрики Ram принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.Client.ApiMetricsAgentRamGetbytimeperiod(MyNamespace.RamMetricGetByTimePeriodRequest)">
+            <summary>Контроллер получает метрики Ram принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MyNamespace.Client.ApiMetricsAgentRamGetbytimeperiodAsync(MyNamespace.RamMetricGetByTimePeriodRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Контроллер получает метрики Ram принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MyNamespace.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MetricsManager.Controllers.AgentsController.RegisterAgent(MetricsManager.Requests.AgentInfoApiRequest)">
+             <summary>
+             Контроллер получает адрес агента и его ID принимая на вход запрос ввиде серилизованного json
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             POST /api/metrics/manager/register
+             </remarks>
+             
+             <param name="AgentId">"AgentId": "1"</param>
+             <param name="AgentAddress">"AgentAddress": "http://localhost:51684"</param>
+             
+             <response code="200">Если все хорошо</response>
+             <response code="400">Если передали не правильные параетры</response>
+        </member>
+        <member name="M:MetricsManager.Controllers.AgentsController.EnableAgentById(System.Int32)">
+             <summary>
+             Контроллер получает ID агента, которого нужно "включить" принимая на вход цифры в int представлении
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             PUT /api/metrics/manager/enable
+             </remarks>
+             
+             <param name="agentId">"agentId": "1"</param>
+             
+             <response code="200">Если все хорошо</response>
+             <response code="400">Если передали не правильные параетры</response>
+        </member>
+        <member name="M:MetricsManager.Controllers.AgentsController.DisableAgentById(System.Int32)">
+             <summary>
+             Контроллер получает ID агента, которого нужно "выключить" принимая на вход цифры в int представлении
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             PUT /api/metrics/manager/disable
+             </remarks>
+             
+             <param name="agentId">"agentId": "1"</param>
+             
+             <response code="200">Если все хорошо</response>
+             <response code="400">Если передали не правильные параетры</response>
+        </member>
+        <member name="M:MetricsManager.Controllers.CpuMetricsController.GetMetricsFromAgent(MetricsManager.Requests.CpuMetricsApiRequest)">
+             <summary>
+             Контроллер получает метрики Cpu (ранее полученные от Агента Метрик) из базы данных Менеджера принимая на вход ответ ввиде серилизованного json
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             POST /api/metrics/manager/cpu/getmetricsfromagent
+             </remarks>
+             
+             <param name="FromTime">"FromTime": "2021-01-01T21:00:00+00:00"</param>
+             <param name="ToTime">"ToTime": "2021-05-19T21:00:00+00:00"</param>
+             
+             <returns>Cписок метрик, которые были сохранены в заданном диапазоне времени ввиде response-ответа в формате json
+             </returns>
+             <response code="200">Если все хорошо</response>
+             <response code="400">Если передали не правильные параметры</response>
+        </member>
+        <member name="M:MetricsManager.Controllers.DotNetMetricsController.GetMetricsFromAgent(MetricsManager.Requests.DotNetMetricsApiRequest)">
+             <summary>
+             Контроллер получает метрики DotNet (ранее полученные от Агента Метрик) из базы данных Менеджера принимая на вход ответ ввиде серилизованного json
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             POST /api/metrics/manager/dotnet/getmetricsfromagent
+             </remarks>
+             
+             <param name="FromTime">"FromTime": "2021-01-01T21:00:00+00:00"</param>
+             <param name="ToTime">"ToTime": "2021-05-19T21:00:00+00:00"</param>
+             
+             <returns>Cписок метрик, которые были сохранены в заданном диапазоне времени ввиде response-ответа в формате json
+             </returns>
+             <response code="200">Если все хорошо</response>
+             <response code="400">Если передали не правильные параметры</response>
+        </member>
+        <member name="M:MetricsManager.Controllers.HddMetricsController.GetMetricsFromAgent(MetricsManager.Requests.HddMetricsApiRequest)">
+             <summary>
+             Контроллер получает метрики Hdd (ранее полученные от Агента Метрик) из базы данных Менеджера принимая на вход ответ ввиде серилизованного json
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             POST /api/metrics/manager/hdd/getmetricsfromagent
+             </remarks>
+             
+             <param name="FromTime">"FromTime": "2021-01-01T21:00:00+00:00"</param>
+             <param name="ToTime">"ToTime": "2021-05-19T21:00:00+00:00"</param>
+             
+             <returns>Cписок метрик, которые были сохранены в заданном диапазоне времени ввиде response-ответа в формате json
+             </returns>
+             <response code="200">Если все хорошо</response>
+             <response code="400">Если передали не правильные параметры</response>
+        </member>
+        <member name="M:MetricsManager.Controllers.NetworkMetricsController.GetMetricsFromAgent(MetricsManager.Requests.NetworkMetricsApiRequest)">
+             <summary>
+             Контроллер получает метрики Network (ранее полученные от Агента Метрик) из базы данных Менеджера принимая на вход ответ ввиде серилизованного json
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             POST /api/metrics/manager/network/getmetricsfromagent
+             </remarks>
+             
+             <param name="FromTime">"FromTime": "2021-01-01T21:00:00+00:00"</param>
+             <param name="ToTime">"ToTime": "2021-05-19T21:00:00+00:00"</param>
+             
+             <returns>Cписок метрик, которые были сохранены в заданном диапазоне времени ввиде response-ответа в формате json
+             </returns>
+             <response code="200">Если все хорошо</response>
+             <response code="400">Если передали не правильные параметры</response>
+        </member>
+        <member name="M:MetricsManager.Controllers.RamMetricsController.GetMetricsFromAgent(MetricsManager.Requests.RamMetricsApiRequest)">
+             <summary>
+             Контроллер получает метрики Ram (ранее полученные от Агента Метрик) из базы данных Менеджера принимая на вход ответ ввиде серилизованного json
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             POST /api/metrics/manager/ram/getmetricsfromagent
+             </remarks>
+             
+             <param name="FromTime">"FromTime": "2021-01-01T21:00:00+00:00"</param>
+             <param name="ToTime">"ToTime": "2021-05-19T21:00:00+00:00"</param>
+             
+             <returns>Cписок метрик, которые были сохранены в заданном диапазоне времени ввиде response-ответа в формате json
+             </returns>
+             <response code="200">Если все хорошо</response>
+             <response code="400">Если передали не правильные параметры</response>
+        </member>
+    </members>
+</doc>

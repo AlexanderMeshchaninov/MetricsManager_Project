@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MetricsManagerClient</name>
+    </assembly>
+    <members>
+        <member name="T:MetricsManagerClient.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:MetricsManagerClient.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:MetricsManagerClient.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:MetricsManagerClient.CpuChart">
+            <summary>
+            Interaction logic for CpuChart.xaml
+            </summary>
+            <summary>
+            CpuChart
+            </summary>
+        </member>
+        <member name="M:MetricsManagerClient.CpuChart.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetricsManagerClient.HddChart">
+            <summary>
+            Interaction logic for HddChart.xaml
+            </summary>
+            <summary>
+            HddChart
+            </summary>
+        </member>
+        <member name="M:MetricsManagerClient.HddChart.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetricsManagerClient.RamChart">
+            <summary>
+            Interaction logic for HddChart.xaml
+            </summary>
+            <summary>
+            RamChart
+            </summary>
+        </member>
+        <member name="M:MetricsManagerClient.RamChart.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetricsManagerClient.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:MetricsManagerClient.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MetricsManagerClient.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:MetricsManagerClient.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:MetricsManagerClient.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="M:MetricsManagerGeneratedClient.ManagerGeneratedClient.ApiMetricsManagerRegisterAsync(MetricsManagerGeneratedClient.AgentInfoApiRequest)">
+            <summary>Контроллер получает адрес агента и его ID принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MetricsManagerGeneratedClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MetricsManagerGeneratedClient.ManagerGeneratedClient.ApiMetricsManagerRegister(MetricsManagerGeneratedClient.AgentInfoApiRequest)">
+            <summary>Контроллер получает адрес агента и его ID принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MetricsManagerGeneratedClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MetricsManagerGeneratedClient.ManagerGeneratedClient.ApiMetricsManagerRegisterAsync(MetricsManagerGeneratedClient.AgentInfoApiRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Контроллер получает адрес агента и его ID принимая на вход запрос ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MetricsManagerGeneratedClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MetricsManagerGeneratedClient.ManagerGeneratedClient.ApiMetricsManagerEnableAsync(System.Int32)">
+            <summary>Контроллер получает ID агента, которого нужно "включить" принимая на вход цифры в int представлении</summary>
+            <param name="agentId">"agentId": "1"</param>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MetricsManagerGeneratedClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MetricsManagerGeneratedClient.ManagerGeneratedClient.ApiMetricsManagerEnable(System.Int32)">
+            <summary>Контроллер получает ID агента, которого нужно "включить" принимая на вход цифры в int представлении</summary>
+            <param name="agentId">"agentId": "1"</param>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MetricsManagerGeneratedClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MetricsManagerGeneratedClient.ManagerGeneratedClient.ApiMetricsManagerEnableAsync(System.Int32,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Контроллер получает ID агента, которого нужно "включить" принимая на вход цифры в int представлении</summary>
+            <param name="agentId">"agentId": "1"</param>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MetricsManagerGeneratedClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MetricsManagerGeneratedClient.ManagerGeneratedClient.ApiMetricsManagerDisableAsync(System.Int32)">
+            <summary>Контроллер получает ID агента, которого нужно "выключить" принимая на вход цифры в int представлении</summary>
+            <param name="agentId">"agentId": "1"</param>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MetricsManagerGeneratedClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MetricsManagerGeneratedClient.ManagerGeneratedClient.ApiMetricsManagerDisable(System.Int32)">
+            <summary>Контроллер получает ID агента, которого нужно "выключить" принимая на вход цифры в int представлении</summary>
+            <param name="agentId">"agentId": "1"</param>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MetricsManagerGeneratedClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MetricsManagerGeneratedClient.ManagerGeneratedClient.ApiMetricsManagerDisableAsync(System.Int32,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Контроллер получает ID агента, которого нужно "выключить" принимая на вход цифры в int представлении</summary>
+            <param name="agentId">"agentId": "1"</param>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MetricsManagerGeneratedClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MetricsManagerGeneratedClient.ManagerGeneratedClient.ApiMetricsManagerCpuGetmetricsfromagentAsync(MetricsManagerGeneratedClient.CpuMetricsApiRequest)">
+            <summary>Контроллер получает метрики Cpu (ранее полученные от Агента Метрик) из базы данных Менеджера принимая на вход ответ ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MetricsManagerGeneratedClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MetricsManagerGeneratedClient.ManagerGeneratedClient.ApiMetricsManagerCpuGetmetricsfromagent(MetricsManagerGeneratedClient.CpuMetricsApiRequest)">
+            <summary>Контроллер получает метрики Cpu (ранее полученные от Агента Метрик) из базы данных Менеджера принимая на вход ответ ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MetricsManagerGeneratedClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MetricsManagerGeneratedClient.ManagerGeneratedClient.ApiMetricsManagerCpuGetmetricsfromagentAsync(MetricsManagerGeneratedClient.CpuMetricsApiRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Контроллер получает метрики Cpu (ранее полученные от Агента Метрик) из базы данных Менеджера принимая на вход ответ ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MetricsManagerGeneratedClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MetricsManagerGeneratedClient.ManagerGeneratedClient.ApiMetricsManagerDotnetGetmetricsfromagentAsync(MetricsManagerGeneratedClient.DotNetMetricsApiRequest)">
+            <summary>Контроллер получает метрики DotNet (ранее полученные от Агента Метрик) из базы данных Менеджера принимая на вход ответ ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MetricsManagerGeneratedClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MetricsManagerGeneratedClient.ManagerGeneratedClient.ApiMetricsManagerDotnetGetmetricsfromagent(MetricsManagerGeneratedClient.DotNetMetricsApiRequest)">
+            <summary>Контроллер получает метрики DotNet (ранее полученные от Агента Метрик) из базы данных Менеджера принимая на вход ответ ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MetricsManagerGeneratedClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MetricsManagerGeneratedClient.ManagerGeneratedClient.ApiMetricsManagerDotnetGetmetricsfromagentAsync(MetricsManagerGeneratedClient.DotNetMetricsApiRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Контроллер получает метрики DotNet (ранее полученные от Агента Метрик) из базы данных Менеджера принимая на вход ответ ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MetricsManagerGeneratedClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MetricsManagerGeneratedClient.ManagerGeneratedClient.ApiMetricsManagerHddGetmetricsfromagentAsync(MetricsManagerGeneratedClient.HddMetricsApiRequest)">
+            <summary>Контроллер получает метрики Hdd (ранее полученные от Агента Метрик) из базы данных Менеджера принимая на вход ответ ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MetricsManagerGeneratedClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MetricsManagerGeneratedClient.ManagerGeneratedClient.ApiMetricsManagerHddGetmetricsfromagent(MetricsManagerGeneratedClient.HddMetricsApiRequest)">
+            <summary>Контроллер получает метрики Hdd (ранее полученные от Агента Метрик) из базы данных Менеджера принимая на вход ответ ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MetricsManagerGeneratedClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MetricsManagerGeneratedClient.ManagerGeneratedClient.ApiMetricsManagerHddGetmetricsfromagentAsync(MetricsManagerGeneratedClient.HddMetricsApiRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Контроллер получает метрики Hdd (ранее полученные от Агента Метрик) из базы данных Менеджера принимая на вход ответ ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MetricsManagerGeneratedClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MetricsManagerGeneratedClient.ManagerGeneratedClient.ApiMetricsManagerNetworkGetmetricsfromagentAsync(MetricsManagerGeneratedClient.NetworkMetricsApiRequest)">
+            <summary>Контроллер получает метрики Network (ранее полученные от Агента Метрик) из базы данных Менеджера принимая на вход ответ ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MetricsManagerGeneratedClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MetricsManagerGeneratedClient.ManagerGeneratedClient.ApiMetricsManagerNetworkGetmetricsfromagent(MetricsManagerGeneratedClient.NetworkMetricsApiRequest)">
+            <summary>Контроллер получает метрики Network (ранее полученные от Агента Метрик) из базы данных Менеджера принимая на вход ответ ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MetricsManagerGeneratedClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MetricsManagerGeneratedClient.ManagerGeneratedClient.ApiMetricsManagerNetworkGetmetricsfromagentAsync(MetricsManagerGeneratedClient.NetworkMetricsApiRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Контроллер получает метрики Network (ранее полученные от Агента Метрик) из базы данных Менеджера принимая на вход ответ ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MetricsManagerGeneratedClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MetricsManagerGeneratedClient.ManagerGeneratedClient.ApiMetricsManagerRamGetmetricsfromagentAsync(MetricsManagerGeneratedClient.RamMetricsApiRequest)">
+            <summary>Контроллер получает метрики Ram (ранее полученные от Агента Метрик) из базы данных Менеджера принимая на вход ответ ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MetricsManagerGeneratedClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MetricsManagerGeneratedClient.ManagerGeneratedClient.ApiMetricsManagerRamGetmetricsfromagent(MetricsManagerGeneratedClient.RamMetricsApiRequest)">
+            <summary>Контроллер получает метрики Ram (ранее полученные от Агента Метрик) из базы данных Менеджера принимая на вход ответ ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MetricsManagerGeneratedClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="M:MetricsManagerGeneratedClient.ManagerGeneratedClient.ApiMetricsManagerRamGetmetricsfromagentAsync(MetricsManagerGeneratedClient.RamMetricsApiRequest,System.Threading.CancellationToken)">
+            <param name="cancellationToken">A cancellation token that can be used by other objects or threads to receive notice of cancellation.</param>
+            <summary>Контроллер получает метрики Ram (ранее полученные от Агента Метрик) из базы данных Менеджера принимая на вход ответ ввиде серилизованного json</summary>
+            <returns>Если все хорошо</returns>
+            <exception cref="T:MetricsManagerGeneratedClient.ApiException">A server side error occurred.</exception>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>

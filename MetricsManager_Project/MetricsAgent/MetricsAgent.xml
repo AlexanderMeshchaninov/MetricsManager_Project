@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MetricsAgent</name>
+    </assembly>
+    <members>
+        <member name="M:MetricsAgent.Controllers.CpuMetricsController.GetByTimePeriod(MetricsAgent.Requests.CpuMetricGetByTimePeriodRequest)">
+             <summary>
+             Контроллер получает метрики Cpu принимая на вход запрос
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             POST /api/metrics/agent/cpu/getbytimeperiod
+             </remarks>
+             
+             <param name="FromTime">"FromTime": "2021-01-01T21:00:00+00:00"</param>
+             <param name="ToTime">"ToTime": "2021-05-19T21:00:00+00:00"</param>
+             
+             <returns>Cписок метрик, которые были сохранены в заданном диапазоне времени ввиде response-ответа
+             </returns>
+             <response code="200">Если все хорошо</response>
+             <response code="400">Если передали не правильные параметры</response>
+        </member>
+        <member name="M:MetricsAgent.Controllers.DotNetMetricsController.GetByTimePeriod(MetricsAgent.Requests.DotNetMetricGetByTimePeriodRequest)">
+             <summary>
+             Контроллер получает метрики DotNet принимая на вход запрос
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             POST /api/metrics/agent/dotnet/getbytimeperiod
+             </remarks>
+             
+             <param name="FromTime">"FromTime": "2021-01-01T21:00:00+00:00"</param>
+             <param name="ToTime">"ToTime": "2021-05-19T21:00:00+00:00"</param>
+             
+             <returns>Cписок метрик, которые были сохранены в заданном диапазоне времени ввиде response-ответа
+             </returns>
+             <response code="200">Если все хорошо</response>
+             <response code="400">Если передали не правильные параметры</response>
+        </member>
+        <member name="M:MetricsAgent.Controllers.HddMetricsController.GetByTimePeriod(MetricsAgent.Requests.HddMetricGetByTimePeriodRequest)">
+             <summary>
+             Контроллер получает метрики Hdd принимая на вход запрос
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             POST /api/metrics/agent/hdd/getbytimeperiod
+             </remarks>
+             
+             <param name="FromTime">"FromTime": "2021-01-01T21:00:00+00:00"</param>
+             <param name="ToTime">"ToTime": "2021-05-19T21:00:00+00:00"</param>
+             
+             <returns>Cписок метрик, которые были сохранены в заданном диапазоне времени ввиде response-ответа
+             </returns>
+             <response code="200">Если все хорошо</response>
+             <response code="400">Если передали не правильные параметры</response>
+        </member>
+        <member name="M:MetricsAgent.Controllers.NetworkMetricsController.GetByTimePeriod(MetricsAgent.Requests.NetworkMetricGetByTimePeriodRequest)">
+             <summary>
+             Контроллер получает метрики Network принимая на вход запрос
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             POST /api/metrics/agent/network/getbytimeperiod
+             </remarks>
+             
+             <param name="FromTime">"FromTime": "2021-01-01T21:00:00+00:00"</param>
+             <param name="ToTime">"ToTime": "2021-05-19T21:00:00+00:00"</param>
+             
+             <returns>Cписок метрик, которые были сохранены в заданном диапазоне времени ввиде response-ответа
+             </returns>
+             <response code="200">Если все хорошо</response>
+             <response code="400">Если передали не правильные параметры</response>
+        </member>
+        <member name="M:MetricsAgent.Controllers.RamMetricsController.GetByTimePeriod(MetricsAgent.Requests.RamMetricGetByTimePeriodRequest)">
+             <summary>
+             Контроллер получает метрики Ram принимая на вход запрос
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             POST /api/metrics/agent/ram/getbytimeperiod
+             </remarks>
+             
+             <param name="FromTime">"FromTime": "2021-01-01T21:00:00+00:00"</param>
+             <param name="ToTime">"ToTime": "2021-05-19T21:00:00+00:00"</param>
+             
+             <returns>Cписок метрик, которые были сохранены в заданном диапазоне времени ввиде response-ответа
+             </returns>
+             <response code="200">Если все хорошо</response>
+             <response code="400">Если передали не правильные параметры</response>
+        </member>
+    </members>
+</doc>
